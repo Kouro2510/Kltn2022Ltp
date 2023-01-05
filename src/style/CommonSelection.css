@@ -1,0 +1,20 @@
+.common_selection{
+    background: linear-gradient(rgba(0,0,0,0.562),rgba(0,0,0,0.562)),url("../assets/images/car-01-8.jpg")no-repeat center center;
+    background-size: contain;
+   padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.common_selection h1{
+    color: #fff;
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px){
+.common_selection{
+    padding: 70px 0;
+}
+    .common_selection h1{
+        font-size: 1.4rem;
+    }
+}

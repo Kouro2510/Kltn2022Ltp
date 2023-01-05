@@ -1,0 +1,7 @@
+@media only screen and  (max-width: 992px){
+    .clock_wapper{
+        justify-content: center;
+    }
+    .clock-data{
+        font-size: 1.1rem!important;}
+}

@@ -1,0 +1,52 @@
+.filter_widget select{
+    margin: 10px 0;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+}
+.filter_widget select:focus{
+    outline: none!important;
+}
+.filter_widget select option{
+    font-size: 0.9rem;
+}
+.search_box{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+.search_box input{
+    width: 100% ;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+}
+.search_box input{
+  color: var(--primary-color);
+}
+.productlist{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+@media only screen and (max-width: 768px){
+    .filter_widget{
+        margin-bottom: 30px;
+    }
+    .filter_widget select{
+        padding: 7px 20px;
+        font-size: 0.8rem;
+    }
+}
